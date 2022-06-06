@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="my_db2_connect" uuid="8454b1e3-dd04-4f1a-8bbd-cb9f6c25a4ee">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/my_db2</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hadoop001" uuid="a8e9e35e-2213-4ef5-810a-d20d398c833f">
+      <driver-ref>hive</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.hive.jdbc.HiveDriver</jdbc-driver>
+      <jdbc-url>jdbc:hive2://hadoop001:10000</jdbc-url>
+    </data-source>
+  </component>
+</project>

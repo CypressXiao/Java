@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/production/alllearning/lib/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/production/alllearning/lib/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/production/alllearning/lib/commons-io-2.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
