@@ -26,12 +26,14 @@ public class QuickSortDemo {
             while(arr[l]<=base && l<r){
                 l++;
             }
+            //理论上大的全在右边,小的全在左边,当找到左边大的和右边小的位置时交换二者
             if(l<r){
                 int temp =arr[r];
                 arr[r] = arr[l];
                 arr[l] = temp;
             }
         }
+        //该步骤是交换基准数
         arr[left] = arr[r];
         arr[r] = base;
 
